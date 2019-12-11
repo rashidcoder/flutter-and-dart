@@ -1,0 +1,149 @@
+methods used in int are as follows:
+
+1.abs():
+
+int abs();
+
+[ceil():
+
+int ceil();]
+
+[floor():
+
+int floor();]
+
+[round():
+
+int round();]
+
+[truncate();
+
+int truncate();]
+
+[toInt():
+
+int toInt();]
+
+2.[ceilToDouble:
+
+double ceilToDouble();]
+
+[floorToDouble:
+
+double floortoDouble();]
+
+[roundToDouble:
+
+double roundToDouble();]
+
+[truncateToDouble:
+
+double truncateToDouble();]
+
+[toDouble:
+
+double toDouble();]
+
+3.gcd:
+
+int gcd(int other);
+
+4.modInverse:
+
+int modInverse(int modulus);
+
+5.modPow;
+
+int modPow(int exponent,int modulus);
+
+6.toRadixString:
+
+int toRadixString(int radix);
+
+7.toSigned:
+
+int toSigned(int width);
+
+8.compareTo:
+
+compareTo(num other);
+
+remainder:
+
+num remainder(num other);
+
+9.toString()
+
+String toString();
+
+
+10.toStringAsExponential:
+
+String toStringAsExponential([int fractionDigits]);
+
+toStringAsFixed:
+
+String toStringAsFixed(int fractionDigits);
+
+toStringAsPrecision:
+
+String toStringAsPrecision(int precision);
+
+
+11.clamp:
+
+num clamp(num lowerLimit, num upperLimit);
+
+
+
+void main(){
+
+ int num = -10 ;
+ 
+//....abs..
+print(num.abs());
+//...ceil...
+print(num.ceil());
+//..floor....
+print(num.floor());
+//....round...
+print(num.round());
+//...truncate...
+print(num.truncate());
+//...toInt....
+print(num.toInt());
+//......ceilToDouble...
+print(num.ceilToDouble());
+//....roundToDouble...
+print(num.roundToDouble());
+//....floorToDouble...
+print(num.floorToDouble());
+//......truncateToDouble....
+print(num.truncateToDouble());
+//.....toDouble....
+print(num.toDouble());
+//....gcd...
+print(num.gcd(1));
+//.....modInverse...
+print(num.modInverse(1));
+//.....clamp...
+print(num.clamp(2, 3));
+//....modPow...
+print(num.modPow(1, 5));
+//.....toRadixString...
+print(num.toRadixString(6));
+//....toSigned...
+print(num.toSigned(5));
+//.....compareTo....
+print(num.compareTo(2));
+//.....remainder.....
+print(num.remainder(5));
+//.....toString....
+print(num.toString());
+//...toStringAsExponential...
+print(num.toStringAsExponential());
+//......toStringAsFixed....
+print(num.toStringAsFixed(2));
+//.....toStringAsPrecision....
+print(num.toStringAsPrecision(8));
+}

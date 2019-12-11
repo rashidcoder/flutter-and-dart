@@ -1,0 +1,8 @@
+void main (){
+  Symbol Object = new Symbol('hamza'); 
+  //....no such method 
+  //Object.noSuchMethod();
+  //......tostring.....
+  Object.toString();
+  print(Object);
+}

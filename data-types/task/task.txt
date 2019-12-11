@@ -1,0 +1,14 @@
+1. create an algorithm for add, remove, updating and importing
+a product
+2. transpile the algorithm to code
+3. try to create as minimum bugs as possible ( symentic, syntactic or others)
+4. code this in notepad not in vscode
+5. data types should be used very carefully
+6. never use member functions ( methods ) only code inside constructor
+7. you can use loops ( only for )
+8. use command line or powershell to run the npm scripts
+
+
+
+
+
